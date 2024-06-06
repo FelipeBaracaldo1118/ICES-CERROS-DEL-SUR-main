@@ -1035,6 +1035,7 @@ max-width: 100px; max-height: 70px; }
   background: var(--raisin-black-1);
   padding: 50px 25px;
   box-shadow: var(--shadow-2);
+  
 }
 
 .cta-card .card-content {
@@ -1064,6 +1065,7 @@ max-width: 100px; max-height: 70px; }
   box-shadow: var(--shadow-2);
   border-color: var(--white);
   margin-inline: auto;
+
 }
 
 .cta-btn:is(:hover, :focus) {
@@ -1242,8 +1244,14 @@ max-width: 100px; max-height: 70px; }
 
   .cta-card { --fs-2: 1.5rem; }
 
+  .d-flex {
+    display: grid;
+    gap: 20px;
+    grid-auto-flow: column;
+    padding: top 10px;
+  }
 
-
+  
   /**
    * FOOTER
    */
@@ -2016,12 +2024,10 @@ max-width: 100px; max-height: 70px; }
     width: 15px;
   }
 
-  @media (max-width: 780px){
-
-    
-    .project-section .gallery{
-      max-width: fit-content;
-      
-    }
-    
+  .cta-card .d-flex{
+    grid-auto-flow: column;
   }
+
+  
+
+ 

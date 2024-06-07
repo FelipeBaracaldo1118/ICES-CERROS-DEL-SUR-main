@@ -114,3 +114,19 @@ carousels.forEach(carouselElement => {
   carouselInstance.setControls();
   carouselInstance.useControls();
 });
+
+function ayudanos(){
+  location.href ="comoayudar.html"
+}
+function acerca(){
+  location.href="index.html#about"
+}
+function facebook(){
+  location.href="https://www.facebook.com/profile.php?id=100064742769808&mibextid=kFxxJD"
+}
+function whatsapp(){
+  location.href="https://api.whatsapp.com/send?phone=573142990606&text=Hola,%20quisiera%20más%20información%20de%20cómo%20ayudar."
+}
+function mail(){
+  location.href="mailto:colegioices@gmail.com"
+}

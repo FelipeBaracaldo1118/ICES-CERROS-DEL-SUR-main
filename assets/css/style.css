@@ -2008,6 +2008,7 @@ max-width: 100px; max-height: 70px; }
   .gallery-controls-previous {
     position: relative;
     color: transparent;
+    align-self: baseline;
   }
   
   .gallery-controls-previous::before {
@@ -2026,6 +2027,7 @@ max-width: 100px; max-height: 70px; }
   .gallery-controls-next {
     position: relative;
     color: transparent;
+  
   }
   
   .gallery-controls-next::before {

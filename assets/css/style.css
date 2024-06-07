@@ -1904,11 +1904,16 @@ max-width: 100px; max-height: 70px; }
 }
 
 @media (max-width: 400px){
+  .projects-section{
+    max-width: 400px;
+  }
   .projects-section .gallery-container{
     max-width: fit-content;
+   
   }
   .projects-section .gallery-container .gallery-item{
     max-width: fit-content;
+    width: 350px;
   }
   .projects-section2 .gallery-container{
     max-width: fit-content;

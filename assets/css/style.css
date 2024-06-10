@@ -1922,7 +1922,9 @@ max-width: 100px; max-height: 70px; }
     max-width: fit-content;
   }
 
-
+  .about-banner >img{
+    max-width: 100%;
+  }
  }
 /**
    * Carrusel 
@@ -2106,20 +2108,19 @@ max-width: 100px; max-height: 70px; }
   /* texto segunda seccion */
   .text-container {
     flex: 1;
-    max-width: 30%; /* Ajusta el ancho */
+    max-width: 40%; /* Ajusta el ancho */
     margin-right: 350px; /* Ajusta el margen derecho */
+    line-height:2;
+    text-align: justify;
   }
   
-  .text-container p {
-    font-size: 1em; /* Tamaño del texto */
-    line-height: 1.5;
-    margin-left: 20px;
-  }
+  
   /*tercerra seccion*/
   .new-section {
     padding: 20px;
     background-color: var(--cultured-2); /* Cambia el color de fondo */
     margin-top: 20px; /* Ajusta el margen superior  */
+    
   }
   .third-section {
     position: relative;
@@ -2160,15 +2161,15 @@ max-width: 100px; max-height: 70px; }
   
   
   .slider-box{
-        width: 1280px;
-        height: auto;
+        width: 80%;
+        height: 100%;
         margin: 50px auto 0;
       
   
   }
   .slider-box ul {
     display: grid;
-    height: fit-content%;
+    height: fit-content;
     gap: 10px;
     width: 100%;
     grid-auto-flow: column;
@@ -2179,14 +2180,15 @@ max-width: 100px; max-height: 70px; }
     width: 825px;
     list-style: none;
     position: relative;
-    height: 425px;
   }
-  
   
   .texto {
     position: absolute;
     text-align: center;
-    padding: 0 100px;
+    width: 790px;
+    padding: 50px;
+   margin-left: 30px;
+   height: 300px;
     top: 250px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5); /* Difuminación negra */
@@ -2197,11 +2199,12 @@ max-width: 100px; max-height: 70px; }
     margin-bottom: 35px;
   }
   .slider-box img{
-    width: 100%;
+    max-width: fit-content;
+    height: 500px;
   }
   @keyframes slide {
     0%, 20% { margin-left: 0; } /* Primer slide */
-    25%, 45% { margin-left: -100%; } /* Segundo slide */
-    50%, 70% { margin-left: -200%; } /* Tercer slide */
+    25%, 45% { margin-left: -50%; } /* Segundo slide */
+    50%, 70% { margin-left: -100%; } /* Tercer slide */
     75%, 100% { margin-left: 0; } /* Vuelve al primer slide */
   }

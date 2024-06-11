@@ -1925,6 +1925,8 @@ max-width: 100px; max-height: 70px; }
   .about-banner >img{
     max-width: 100%;
   }
+
+  
  }
 /**
    * Carrusel 
@@ -2199,7 +2201,7 @@ max-width: 100px; max-height: 70px; }
     margin-bottom: 35px;
   }
   .slider-box img{
-    max-width: fit-content;
+    width: 800px;
     height: 500px;
   }
   @keyframes slide {
